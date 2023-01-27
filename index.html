@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Client Details</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        
+    </header>
+    <!-- form start -->
+    <div class="form-container">
+        <form>
+            <!-- form-header -->
+            <div class="header-info">
+                <h1>Client Details</h1>
+                <h3>Please! Enter Your Details</h3>
+            </div>
+            <!-- form-header -->
+            <label >Client Name<span class="requred">*</span> : <input type="text" name="name" placeholder="Please! Enter Your Name"></label><br><br>
+            <label >Organization<span class="requred">*</span> : <input type="text" name="org" placeholder="Your Organization Name"></label><br><br>
+            <label >Title : <input type="text" name="title" placeholder="Enter Title"></label><br><br>
+            <!-- Depertment-dropdown -->
+            <label for="depertment">Depertment<span class="requred">*</span> : 
+                <select name="depertment" id="depertment">
+                       <option value="web-development">Web Development</option>
+                       <option value="Cyber Security">Cyber Security</option>
+                       <option value="degital-marketing">Degital Marketing</option>
+                       <option value="seo">SEO</option>
+                </select>
+           </label><br><br>
+            <!-- Contact-method-radio -->
+           <label for="depertment">Preferred Contact Method<span class="requred">*</span>:</label>
+            <input type="radio" name="depertment" value="Phone" id="phone">
+           <label for="phone">Phone</label>
+           <input type="radio" name="depertment" value="Email" id="email">
+            <label for="email">Email</label><br><br>
+           <!-- Contact-method-radio -->
+
+            <label >Email : <input type="text" name="Email" placeholder="Please! Enter Your Email"></label><br><br>
+            <label >Phone : <input type="text" name="Phone" placeholder="Please! Enter Your Phone Number"></label><br><br>
+
+            <label >Company Address<span class="requred">*</span> : <input type="text" name="address" placeholder=""></label><br><br>
+            <label >Company Website<span class="requred">*</span> : <input type="text" name="website" placeholder=""></label><br><br>
+            <!-- Choose-File -->
+            <label for="file-select">Company Logo :</label>
+            <input type="file" name="upload" id="file-select"><br><br>
+
+            <label >Working Hours<span class="requred">*</span> : <input type="text" name="woking-hours" placeholder=""></label><br><br>
+            <label >Working Days<span class="requred">*</span> : <input type="text" name="working-days" placeholder=""></label><br><br>
+            <label >Billing Cycle<span class="requred">*</span> : <input type="text" name="billing-cycle" placeholder=""></label><br><br>
+            <!-- text-area -->
+            <label for="address">Additional Information :</label>
+            <textarea rows="3" cols="30" name="additional-info" id="address"></textarea><br><br><br>
+            <!-- buttons -->
+            <input type="submit" value="Submit"style="color:green;">
+        </form>
+        <footer>
+            <p>All Cradits goes Zahid Hasan </p>
+        </footer>
+    </div>
+</body>
+</html>
